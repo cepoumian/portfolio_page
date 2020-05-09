@@ -10,7 +10,7 @@
   color: #e8eddf;
   font-size: 1.25rem;
   font-weight: 400;
-  letter-spacing: .2rem;
+  letter-spacing: 1rem;
 }
 
 #top_nav_link {
@@ -33,6 +33,12 @@
   color: #f5cb5c;
 }
 
+@media (max-width: 496px) {
+  #top_nav_brand {
+    letter-spacing: .2rem;
+  }
+}
+
 /* below medium  */
 @media (max-width: 767px) {
 
@@ -48,6 +54,10 @@
   #top_nav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+
+  #top_nav_brand {
+    letter-spacing: .5rem;
   }
 
   #top_nav_brand:hover, #top_nav_link:hover {
