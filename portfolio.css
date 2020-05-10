@@ -1,0 +1,45 @@
+.work .example {
+  display: block;
+  position: relative;
+  max-width: 21rem;
+  margin-bottom: 15px;
+}
+
+.work .example .exm_caption {
+  background-color: #f5cb5c;
+  opacity: 0;
+  transition: all .3s ease;
+}
+
+.work .example .exm_caption:hover {
+  opacity: 0.3;
+}
+
+.work .example .exm_caption .exm_cap_content {
+  font-size: 2rem;
+}
+
+.work i {
+  color: #333533;
+}
+
+.position-absolute {
+  position: absolute !important;
+}
+
+/* .h-100 {
+  height: 100% !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.d-flex {
+  display: flex !important;
+} */
+
+#portfolio_main_heading {
+  color: #333533;
+  font-weight: 800;
+}
