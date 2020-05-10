@@ -13,6 +13,11 @@
   letter-spacing: 1rem;
 }
 
+#top_nav_brand:hover {
+  border-bottom: 1px dashed #f5cb5c;
+  margin-bottom: 0.5rem;
+}
+
 #top_nav_link {
   color: #e8eddf;
   text-decoration: none;
@@ -21,7 +26,7 @@
   letter-spacing: .1rem;
 }
 
-#top_nav_brand:hover, #top_nav_link:hover {
+#top_nav_link:hover {
   color: #f5cb5c;
 }
 
@@ -33,6 +38,11 @@
   color: #f5cb5c;
 }
 
+/* only for extra-small devices */
+@media (max-width: 332px) {
+
+}
+
 @media (max-width: 496px) {
   #top_nav_brand {
     letter-spacing: .2rem;
@@ -42,7 +52,7 @@
 /* below medium  */
 @media (max-width: 767px) {
 
-  .navbar-brand {
+  #top_nav_brand {
     font-size: 1.25rem;
   }
 
@@ -60,14 +70,21 @@
     letter-spacing: .5rem;
   }
 
-  #top_nav_brand:hover, #top_nav_link:hover {
+  #top_nav_brand:hover {
     color: #e8eddf;
     border-bottom: 1px dashed #f5cb5c;
+    margin-bottom: 0;
   }
 
   #top_nav_link {
     color: #e8eddf;
   }
+
+   #top_nav_link:hover {
+    color: #e8eddf;
+    border-bottom: 1px dashed #f5cb5c;
+    padding-bottom: 0.3rem;
+   }
 
 }
 
