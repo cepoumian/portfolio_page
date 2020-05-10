@@ -1,0 +1,60 @@
+/* Hero section */
+
+#header {
+  background-image: url('images/bg_hero_800x400.jpg');
+  background-size: auto;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+#hero {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+#hero_message {
+  margin: 7rem 1rem 0 0;
+}
+
+#hero span {
+  font-size: 1.5rem;
+  margin: 0.1rem 0;
+}
+
+/* Small and above */
+@media (min-width: 576px) {
+  #header {
+    background-image: url('images/bg_hero_1920x520.jpg');
+    background-size: auto;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
+  #hero {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+
+  #hero_message {
+    margin: 1rem 3rem 0 0;
+  }
+  
+  #hero span {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+  }
+
+}
+
+/* large and above */
+@media (min-width: 992px) {
+  #header {
+    background-size: auto;
+    background-position: 75% 0;
+  }
+  #hero_message {
+    margin-right: 7rem;
+  }
+}
+
