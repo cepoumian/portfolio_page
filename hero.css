@@ -6,6 +6,7 @@
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-attachment: scroll;
+  border-bottom: 3px solid #f5cb5c;
 }
 #hero {
   padding-top: 150px;
@@ -13,6 +14,7 @@
 
 #hero_message {
   margin: 7rem 1rem 0 0;
+  padding-bottom: 1rem;
 }
 
 #hero span {
@@ -28,6 +30,7 @@
     background-position: 50% 0;
     background-repeat: no-repeat;
     background-attachment: scroll;
+    border-bottom: 4px solid #f5cb5c;
   }
 
   #hero {
@@ -35,7 +38,7 @@
   }
 
   #hero_message {
-    margin: 1rem 3rem 0 0;
+    margin: 0 3rem 0 0;
   }
   
   #hero span {
@@ -50,9 +53,12 @@
   #header {
     background-size: auto;
     background-position: 75% 0;
+    border-bottom: 5px solid #f5cb5c;
   }
+
   #hero_message {
     margin-right: 7rem;
+    padding-bottom: 1rem;
   }
 }
 

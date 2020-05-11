@@ -10,7 +10,11 @@
   color: #e8eddf;
   font-size: 1.25rem;
   font-weight: 400;
-  letter-spacing: 1rem;
+  letter-spacing: .5rem;
+}
+
+#top_nav_brand em {
+  color: #f5cb5c;
 }
 
 #top_nav_brand:hover {
@@ -38,14 +42,12 @@
   color: #f5cb5c;
 }
 
-/* only for extra-small devices */
-@media (max-width: 332px) {
+/* only for small devices */
 
-}
-
-@media (max-width: 496px) {
+@media (max-width: 369px) {
   #top_nav_brand {
-    letter-spacing: .2rem;
+    letter-spacing: .3rem;
+    margin-right: 0;
   }
 }
 
@@ -64,10 +66,6 @@
   #top_nav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-  }
-
-  #top_nav_brand {
-    letter-spacing: .5rem;
   }
 
   #top_nav_brand:hover {
