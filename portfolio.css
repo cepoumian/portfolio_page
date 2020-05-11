@@ -1,0 +1,84 @@
+/* Portfoio - Main section */
+
+#portfolio {
+  background-color:  #e8eddf;
+}
+.work .example {
+  display: block;
+  position: relative;
+  max-width: 21rem;
+  margin-bottom: 15px;
+}
+
+.work .example .exm_caption {
+  background-color: #f5cb5c;
+  opacity: 0;
+  transition: all .3s ease;
+}
+
+.work .example .exm_caption:hover {
+  opacity: 0.3;
+}
+
+.work .example .exm_caption .exm_cap_content {
+  font-size: 2rem;
+}
+
+.work i {
+  color: #333533;
+}
+
+.position-absolute {
+  position: absolute !important;
+}
+
+#portfolio_main_heading {
+  color: #333533;
+  font-weight: 800;
+  font-size: 1.75rem;
+}
+
+@media (max-width: 991px) {
+  #portfolio_main_heading  {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .work .example {
+    max-width: 33.33333333rem;
+  }
+}
+
+@media (max-width: 519px) {
+  #portfolio_main_heading  {
+    font-size: 1.3rem;
+ } 
+}
+
+/* Portfoio - Modal windows */
+
+.modal-content {
+  background-color: #e8eddf;
+}
+.modal-header {
+  border-bottom: none !important;
+}
+
+.modal-footer {
+  border-top: none !important;
+}
+
+.window_close {
+  background-color: #333533;
+  opacity: 0.75;
+}
+
+.window_close:hover {
+  background-color: #333533;
+  opacity: 1;
+}
+
+.modal-body h2 {
+  font-weight: 600;
+}

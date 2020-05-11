@@ -13,24 +13,26 @@
   <link rel="stylesheet" type="text/css" href="./style.css">
   <link rel="stylesheet" type="text/css" href="./nav.css">
   <link rel="stylesheet" type="text/css" href="./hero.css">
+  <link rel="stylesheet" type="text/css" href="./portfolio.css">
   <title>Portfolio Page</title>
 </head>
-<body>
+<body id="top">
   
   <nav id="top_nav" class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid mx-1 mx-sm-3 mx-lg-4" id="navbar_container">
-      <a href="#page-top" class="navbar-brand js-scroll-trigger text-uppercase" id="top_nav_brand">Cesar Poumian</a>
+      <a href="#top" class="navbar-brand js-scroll-trigger" id="top_nav_brand">CESAR POUM<em>i</em>AN</a>
       <button class="navbar-toggler navbar-toggler-right ml-auto" data-target="#top_nav_items" data-toggle="collapse">
         <i class="fa fa-bars"></i>
       </button>
       <div id="top_nav_items" class="collapse navbar-collapse">
         <ul class="nav navbar-nav mr-auto">
-          <li class="nav-item mx-0 mx-lg-2"><a href="#" id="top_nav_link">portfolio</a></li>
-          <li class="nav-item mx-0 mx-lg-2"><a href="#" id="top_nav_link">contact</a></li>
+          <li class="nav-item mx-0 mx-lg-2"><a href="#portfolio" id="top_nav_link">portfolio</a></li>
+          <li class="nav-item mx-0 mx-lg-2"><a href="#contact" id="top_nav_link">contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
+
   <header id="header">
     <div id="hero" class="container-fluid d-flex flex-column">
       <div
@@ -42,6 +44,105 @@
       </div>
     </div>
   </header>
+
+  <section id="portfolio" class="work">
+    <div class="container-fluid px-5">
+      <h2 id="portfolio_main_heading" class="pt-4 pt-sm-5 pb-3">These are some examples of my work</h2>
+      <div class="row px-3">
+        <div class="col-md-6 col-lg-4">
+          <a class="example d-block mx-auto" data-toggle="modal" href="#window_1">
+            <div class="d-flex exm_caption position-absolute h-100 w-100">
+              <div class="exm_cap_content w-100 text-center pt-4">
+                <i class="fa fa-search-plus fa-2x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="https://via.placeholder.com/900x650?text=Work+example+1">
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="example d-block mx-auto" data-toggle="modal" href="#window_1">
+            <div class="d-flex exm_caption position-absolute h-100 w-100">
+              <div class="exm_cap_content w-100 text-center pt-4">
+                <i class="fa fa-search-plus fa-2x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="https://via.placeholder.com/900x650?text=Work+example+2">
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="example d-block mx-auto" data-toggle="modal" href="#window_1">
+            <div class="d-flex exm_caption position-absolute h-100 w-100">
+              <div class="exm_cap_content w-100 text-center pt-4">
+                <i class="fa fa-search-plus fa-2x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="https://via.placeholder.com/900x650?text=Work+example+3">
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="example d-block mx-auto" data-toggle="modal" href="#window_1">
+            <div class="d-flex exm_caption position-absolute h-100 w-100">
+              <div class="exm_cap_content w-100 text-center pt-4">
+                <i class="fa fa-search-plus fa-2x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="https://via.placeholder.com/900x650?text=Work+example+4">
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="example d-block mx-auto" data-toggle="modal" href="#window_1">
+            <div class="d-flex exm_caption position-absolute h-100 w-100">
+              <div class="exm_cap_content w-100 text-center pt-4">
+                <i class="fa fa-search-plus fa-2x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="https://via.placeholder.com/900x650?text=Work+example+5">
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="example d-block mx-auto" data-toggle="modal" href="#window_1">
+            <div class="d-flex exm_caption position-absolute h-100 w-100">
+              <div class="exm_cap_content w-100 text-center pt-4">
+                <i class="fa fa-search-plus fa-2x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="https://via.placeholder.com/900x650?text=Work+example+6">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact"></footer>
+
+  <div id="window_1" class="modal text-center" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close" type="button" data-dismiss="modal">
+            <span>x</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <h2 class="mb-3">Placeholder for work example</h2>
+                <img class="img-fluid mb-3" src="https://via.placeholder.com/900x650?text=Work+example">
+                <p>Lyft occupy williamsburg, prism copper mug +1 palo santo portland tattooed hella umami la croix.</p>
+                <p><small>HTML | CSS | JavaScipt </small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer pb-5">
+          <a class="window_close btn btn-primary btn-lg mx-auto" role="button" href="#" data-dismiss="modal">
+            <i class="fa fa-close"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
