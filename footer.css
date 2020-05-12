@@ -1,0 +1,12 @@
+#contact {
+  border-top: dashed 3px #f5cb5c;
+}
+
+#social h4 {
+  border-bottom: solid 2px #f5cb5c;
+}
+
+#copy {
+  max-height: 5vh;
+  background-color: #cfdbd5;
+}
