@@ -2,8 +2,8 @@
 
 #top_nav {
   background-color: #333533;
-  padding-top: 1rem;
-  padding-bottom: 1.5rem;
+  padding-top: .7rem;
+  padding-bottom: .7rem;
 }
 
 #top_nav_brand {
@@ -42,6 +42,10 @@
   color: #f5cb5c;
 }
 
+.navbar-toggler:focus {
+  outline: none;
+}
+
 /* only for small devices */
 
 @media (max-width: 369px) {
@@ -50,23 +54,16 @@
     margin-right: 0;
   }
 }
-
-/* below medium  */
-@media (max-width: 767px) {
-
-  #top_nav_brand {
-    font-size: 1.25rem;
+/* medium and above */
+@media (min-width: 767px) {
+  #top_nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
-
 }
 
 /* large and above */
 @media (min-width: 992px) {
-
-  #top_nav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-  }
 
   #top_nav_brand:hover {
     color: #e8eddf;
